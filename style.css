@@ -32,3 +32,9 @@ th
 	font-family: Arial;
 	text-align: center;
 }
+
+.underline
+{
+	/*surligne une ligne sur deux*/
+	background-color: grey;
+}
