@@ -1,0 +1,40 @@
+h1
+{
+	/*mise en page titre principal*/
+	text-align: center;;
+	margin-top: 250px;
+
+}
+
+table
+{
+	/*mise en page du tableau*/
+	text-align:  left;
+	margin-top: 100px;
+	line-height: 3.5em;
+	width: 100%;
+}
+
+td
+{	
+	/*mise en page des colonnes*/
+	margin-left: 5%;
+	margin-right: 10%;
+	font-family: arial;
+}
+
+th
+{
+	margin-left: 5%;
+	margin-right: 10%;
+	color: blue;
+	background-color: yellow;
+	font-family: Arial;
+	text-align: center;
+}
+
+.underline
+{
+	/*surligne une ligne sur deux*/
+	background-color: grey;
+}

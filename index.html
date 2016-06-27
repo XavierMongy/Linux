@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8" />
+	<link rel="stylesheet" href="style.css" />
+	<title>Cheat sheet commandes terminal Linux</title>
+	<meta name="viewport" content="width=device-width" />
+</head>
+<body>
+
+	<table>
+
+		<h1>Commandes terminal Linux</h1> <!--titre du tableau-->	
+		
+		<tr> <!--titres des colonnes-->
+			<th>Commandes</th>
+			<th>Signification</th>
+			<th>Description</th>
+			<th>Exemple d'utilisation</th> 
+		</tr>
+
+		<tr> <!--première commande-->
+			<td class="underline">ls</td> 
+			<td class="underline">list segment</td>
+			<td class="underline">Liste un répertoire</td>
+			<td class="underline">ls -a : liste tous les fichiers et répertoires</td>
+
+		</tr>
+
+		<tr> <!--deuxième commande-->
+			<td>cd</td>
+			<td>change directory</td>
+			<td>Permet de naviguer dans les répertoires</td>
+			<td>cd .. : permet de remonter au répertoire parent</td>
+
+		</tr>
+
+		<tr> <!--troisième commande-->
+			<td class="underline">mv</td>
+			<td class="underline">move</td>
+			<td class="underline">Permet de déplacer ou renomer des fichiers</td>
+			<td class="underline">mv monFichier Rep/ : déplace mF dans Rep</td>
+		</tr>
+
+		<tr> <!--quatrième commande-->
+			<td>cp</td> 
+			<td>copy</td>
+			<td>Copie des fichiers</td>
+			<td>cp monFichier Rep/ :  copie mF dans Rep</td>
+		</tr>
+
+		<tr> <!--cinquième commande-->
+			<td class="underline">rm</td>
+			<td class="underline">remove</td>
+			<td class="underline">Efface des fichiers</td>
+			<td class="underline">rm Fichier : Efface Fichier du répertoire courant</td>
+		</tr>	
+
+		<tr> <!--sixième commande-->
+			<td>mkdir</td>
+			<td>make directory</td>
+			<td>Crée un répertoire vide</td>
+			<td>mkdir Photos : crée le répertoire photos</td>
+		</tr>
+
+		<tr> <!--septième commande-->
+			<td class="underline">pwd</td>
+			<td class="underline">print working directory</td>
+			<td class="underline">Affiche le répertoire</td>
+			<td class="underline">.</td>
+		</tr>
+
+		<tr> <!--huitième commande-->
+			<td>find</td>
+			<td>rechercher</td>
+			<td>Rechercher des fichiers</td>
+			<td>find monfichier* : Recherche un fichier commençant par "monfichier"</td>
+		</tr>
+
+		<tr> <!--neuvième commande-->
+			<td class="underline">grep</td>
+			<td class="underline">global regular expression print</td>
+			<td class="underline">Recherche une chaîne de caractères dans les fichiers</td>
+			<td class="underline">grep -n montexte monfichier : Retourne toutes les lignes ainsi que leur numéro où montexte apparait dans monfichier </td>
+		</tr>
+
+		<tr> <!--dixième commande-->
+			<td>cat</td>
+			<td>concatenate</td>
+			<td>Affiche le contenu d'un fichier</td>
+			<td>cat nomFichier : affiche le contenu de monFichier</td>
+
+		</tr>
+
+		<tr> <!--onzième commande-->
+			<td class="underline">more</td>
+			<td class="underline">more</td>
+			<td class="underline">Affiche un fichier page par page</td>
+			<td class="underline">more -sf monFichier : Afficher monFichier page par page</tr>
+
+		</tr>
+
+		<tr> <!--douzième commande-->
+			<td>less</td>
+			<td>less</td>
+			<td>Affiche un fichier permettant la navigation</td>
+			<td>.</td>
+
+		</tr>
+
+		<tr> <!--treizième commande-->
+			<td class="underline">chmod</td>
+			<td class="underline">change mode</td>
+			<td class="underline">Modifie les permissions d'accès à un fichier ou répertoire</td>
+			<td class="underline">chmod 644 monFichier : autorisation d'écriture et de lecture pour le propriétaire de monFichier et une autorisation de lecture aux autres</td>
+
+		</tr>
+
+		<tr> <!--quatorzième commande-->
+			<td>sudo</td>
+			<td>substitute user -do</td>
+			<td>Permet d'exécuter des commandes en tant qu'un autre utilisateur</td>
+			<td>sudo reboot : Lance la commande reboot avec les droits</td>
+
+		</tr> 
+
+		<tr> <!--quinzième commande-->
+			<td class="underline">apt-get</td>
+			<td class="underline">avanced package tool - get</td>
+			<td class="underline">Permet l'installation et le retrait de packages</td>
+			<td class="underline">apt-get update : Met à jour la liste de packages.</td>
+
+		</tr>
+
+
+	</table> <!--fin du tableau-->
+
+</body>
+</html>
