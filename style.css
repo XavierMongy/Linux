@@ -14,3 +14,11 @@ table
 	line-height: 3.5em;
 	width: 100%;
 }
+
+td
+{	
+	/*mise en page des colonnes*/
+	margin-left: 5%;
+	margin-right: 10%;
+	font-family: arial;
+}
